@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a705d24f-40be-4efd-8c29-a701821228e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws_automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s3_versioning_demo.py" afterDir="false" />
-    </list>
+    <list default="true" id="a705d24f-40be-4efd-8c29-a701821228e8" name="Changes" comment="Created new project for AWS Automation." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +104,21 @@
       <option name="presentableId" value="Default" />
       <updated>1760762970999</updated>
     </task>
+    <task id="LOCAL-00001" summary="Created new project for AWS Automation.">
+      <option name="closed" value="true" />
+      <created>1760810378684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760810378684</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created new project for AWS Automation." />
+    <MESSAGE value="Created project for AWS Automation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created project for AWS Automation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
