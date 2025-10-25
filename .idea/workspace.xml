@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a705d24f-40be-4efd-8c29-a701821228e8" name="Changes" comment="Created new project for AWS Automation.">
-      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/custom_s3_versioning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/ec2_list_instances.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/iam_list_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/ist_s3_buckets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/list_s3_objects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/aws_dynamic_versioning_skip_file_with_same_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/aws_s3_custom_automation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/aws_version_custom_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/aws_versioning_structured_custom_mapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aws_core_connect_scripts/dynamic_custom_versioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s3_versioning_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws_core_connect_scripts/s3_versioning_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws_core_connect_scripts/custom_s3_versioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws_core_connect_scripts/custom_s3_versioning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws_core_connect_scripts/s3_versioning_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/aws_core_connect_scripts/s3_versioning_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TechNaom&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TechNaom/NaoMtech_github&quot;,
+    &quot;accountId&quot;: &quot;4c44fb67-dde7-4974-961e-64e208aba9f0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34DzXQmFHzqMMmfAdOhyjM18iec" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +52,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.aws_dynamic_versioning_skip_file_with_same_data.executor": "Run",
+    "Python.aws_s3_custom_automation.executor": "Run",
+    "Python.aws_version_custom_mapping.executor": "Run",
+    "Python.aws_versioning_structured_custom_mapping.executor": "Run",
     "Python.custom_s3_versioning.executor": "Run",
+    "Python.dynamic_custom_versioning.executor": "Run",
     "Python.ec2_list_instances.executor": "Run",
     "Python.iam_list_users.executor": "Run",
     "Python.ist_s3_buckets.executor": "Run",
@@ -57,8 +74,8 @@
       <recent name="D:\NaoMtech\aws_automation\s3_storage" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.custom_s3_versioning">
-    <configuration name="custom_s3_versioning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.aws_dynamic_versioning_skip_file_with_same_data">
+    <configuration name="aws_dynamic_versioning_skip_file_with_same_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aws_automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/custom_s3_versioning.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/aws_dynamic_versioning_skip_file_with_same_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,29 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ec2_list_instances" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aws_automation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s3_storage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3_storage/ec2_list_instances.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="iam_list_users" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aws_s3_custom_automation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aws_automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/iam_list_users.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/aws_s3_custom_automation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ist_s3_buckets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aws_version_custom_mapping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aws_automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s3_storage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aws_core_connect_scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3_storage/ist_s3_buckets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/aws_version_custom_mapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_s3_objects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aws_versioning_structured_custom_mapping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aws_automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +150,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/s3_storage" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aws_core_connect_scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/s3_storage/list_s3_objects.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/aws_versioning_structured_custom_mapping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dynamic_custom_versioning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aws_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aws_core_connect_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aws_core_connect_scripts/dynamic_custom_versioning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.custom_s3_versioning" />
-        <item itemvalue="Python.iam_list_users" />
-        <item itemvalue="Python.ec2_list_instances" />
-        <item itemvalue="Python.list_s3_objects" />
-        <item itemvalue="Python.ist_s3_buckets" />
+        <item itemvalue="Python.aws_dynamic_versioning_skip_file_with_same_data" />
+        <item itemvalue="Python.dynamic_custom_versioning" />
+        <item itemvalue="Python.aws_versioning_structured_custom_mapping" />
+        <item itemvalue="Python.aws_version_custom_mapping" />
+        <item itemvalue="Python.aws_s3_custom_automation" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760810653226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created new project for AWS Automation.">
+      <option name="closed" value="true" />
+      <created>1760848794796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760848794796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
