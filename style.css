@@ -1,0 +1,31 @@
+body {
+    background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0078d7;
+}
+
+.credit {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}

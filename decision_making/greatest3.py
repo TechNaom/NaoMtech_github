@@ -1,0 +1,14 @@
+#inputs
+
+a=int(input("Enter a"))
+b=int(input("Enter b"))
+c=int(input("Enter c"))
+
+if a>b and a>c:
+    print(f"{a} is bigger than {b} and {c}")
+
+if b>a and b>c:
+    print(f"{b} is bigger than {a} and {c}")
+
+if c>a and c>b:
+    print(f"{c} is bigger than {a} and {b}")
