@@ -1,0 +1,33 @@
+{
+  "BucketName": "naomtech-versioned-bucket-002",
+  "Files": [
+    {
+      "FileName": "D:\\NaoMtech\\DevOPS_aws\\sample_report_v1.txt",
+      "CustomVersion": "_v1",
+      "AWSVersionId": "Mof8bUM.XuoOKM0LbDO8W165ncv2O9jO",
+      "Size": 163,
+      "LastModified": "2025-10-19 03:48:14+00:00"
+    },
+    {
+      "FileName": "D:\\NaoMtech\\DevOPS_aws\\sample_report_v2.txt",
+      "CustomVersion": "_v2",
+      "AWSVersionId": "8RmMhq_zH7IGNZffriW0kwLS5fp1uiZA",
+      "Size": 163,
+      "LastModified": "2025-10-19 03:52:05+00:00"
+    },
+    {
+      "FileName": "D:\\NaoMtech\\DevOPS_aws\\sample_report_v3.txt",
+      "CustomVersion": "_v3",
+      "AWSVersionId": "G635uquT4XPC_ngOAtw32TCR.CYrSA9k",
+      "Size": 163,
+      "LastModified": "2025-10-19 04:10:50+00:00"
+    },
+    {
+      "FileName": "D:\\NaoMtech\\DevOPS_aws\\sample_report_v6_.txt",
+      "CustomVersion": "_v6",
+      "AWSVersionId": "1wg9Zmve2E_2nLeKQT5FERo24bFLZNcX",
+      "Size": 163,
+      "LastModified": "2025-10-25 10:10:01+00:00"
+    }
+  ]
+}
