@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a705d24f-40be-4efd-8c29-a701821228e8" name="Changes" comment="Created new project for AWS Automation.">
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/Bytes_vs_Bytearray_vs_List_Tutorial.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_List_Deep_Dive.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_Operators_Complete_Guide.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_bytearray_Tutorial.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_bytes_Tutorial.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/naomtech_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/naomtech_bau/naomtech_pdf_watermark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_collections/list_add_methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_collections/list_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_collections/list_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761676316673</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created new project for AWS Automation.">
+      <option name="closed" value="true" />
+      <created>1761749471791</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761749471791</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
