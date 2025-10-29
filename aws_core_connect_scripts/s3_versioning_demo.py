@@ -30,11 +30,11 @@ print(f"✅ Versioning enabled on '{bucket_name}'.")
 file_key = 'demo.txt'
 print("Uploading 5th versions of the same file...")
 
-s3.put_object(Bucket=bucket_name, Key=file_key, Body='This is version 4')
+s3.put_object(Bucket=bucket_name, Key=file_key, Body='This is version 5')
 #s3.put_object(Bucket=bucket_name, Key=file_key, Body='This is version 2')
 #s3.put_object(Bucket=bucket_name, Key=file_key, Body='This is version 3')
 
-print("✅ Uploaded 3 versions successfully.")
+print("✅ Uploaded  versions successfully.")
 
 # Step 6: List object versions
 print("\nListing all versions in the bucket...")
