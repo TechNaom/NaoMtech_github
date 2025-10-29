@@ -5,42 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a705d24f-40be-4efd-8c29-a701821228e8" name="Changes" comment="Created new project for AWS Automation.">
-      <change afterPath="$PROJECT_DIR$/python_collections/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_collections/bytearray_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_collections/bytes_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_collections/list_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_string_handling/string_concatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/Bytes_vs_Bytearray_vs_List_Tutorial.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_List_Deep_Dive.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_Operators_Complete_Guide.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_bytearray_Tutorial.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/Python_bytes_Tutorial.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/naomtech_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naomtech_bau/naomtech_pdf_watermark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_collections/list_add_methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/even_print.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/for_1_10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/nested_while.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/printing_digit_by_digit.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/sum_of_first_n_numbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/while_10_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loops/while_1_10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/addition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/assignment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/membership.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/relational.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/even_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/even_check2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/great2_v2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/great3_v3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/greatest2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/greatest3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/greatest3_v2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/greatest_of_two.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/leap_year.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/login_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/signal_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_making/weather-check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_handling/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_handling/string_intro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_handling/string_methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_collections/list_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_collections/list_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,32 +56,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Python_DataStrcutures.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bytearray_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.custom_s3_versioning.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ec2_list_instances.executor&quot;: &quot;Run&quot;,
-    &quot;Python.iam_list_users.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ist_s3_buckets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_s3_objects.executor&quot;: &quot;Run&quot;,
-    &quot;Python.s3_versioning_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_concatenation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_methods.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Python_DataStrcutures.executor": "Run",
+    "Python.bytearray_demo.executor": "Run",
+    "Python.custom_s3_versioning.executor": "Run",
+    "Python.ec2_list_instances.executor": "Run",
+    "Python.iam_list_users.executor": "Run",
+    "Python.ist_s3_buckets.executor": "Run",
+    "Python.list_add_methods.executor": "Run",
+    "Python.list_demo.executor": "Run",
+    "Python.list_s3_objects.executor": "Run",
+    "Python.naomtech_pdf_watermark.executor": "Run",
+    "Python.s3_versioning_demo.executor": "Run",
+    "Python.string_concatenation.executor": "Run",
+    "Python.string_methods.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/NaoMtech/pythonProject5/naomtech_bau",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NaoMtech\pythonProject5\naomtech_bau" />
+      <recent name="D:\NaoMtech\pythonProject5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NaoMtech\pythonProject5\naomtech_bau" />
       <recent name="D:\NaoMtech\pythonProject5\python_collections" />
       <recent name="D:\NaoMtech\aws_automation\s3_storage" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.list_demo">
+  <component name="RunManager" selected="Python.naomtech_pdf_watermark">
     <configuration name="bytearray_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aws_automation" />
       <option name="ENV_FILES" value="" />
@@ -143,6 +126,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\NaoMtech\pythonProject5\python_collections\bytes_collection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="list_add_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="aws_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_collections" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_collections/list_add_methods.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="string_concatenation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="naomtech_pdf_watermark" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="aws_automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,33 +209,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_string_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/naomtech_bau" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_string_handling/string_concatenation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="string_methods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="aws_automation" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_string_handling" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_string_handling/string_methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naomtech_bau/naomtech_pdf_watermark.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.naomtech_pdf_watermark" />
+        <item itemvalue="Python.list_add_methods" />
         <item itemvalue="Python.list_demo" />
         <item itemvalue="Python.bytearray_demo" />
         <item itemvalue="Python.bytes_collection" />
-        <item itemvalue="Python.string_concatenation" />
-        <item itemvalue="Python.string_methods" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760810653226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created new project for AWS Automation.">
+      <option name="closed" value="true" />
+      <created>1761676316673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761676316673</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
